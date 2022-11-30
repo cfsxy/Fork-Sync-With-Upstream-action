@@ -32,7 +32,7 @@ jobs:
       with:
         target_sync_branch: cfsxy/dr_py
         # REQUIRED 'target_repo_token' exactly like this!
-        target_repo_token: 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
+        target_repo_token: ${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}
         upstream_sync_branch: qq_32394351/dr_py
         upstream_sync_repo: aormsby/Fork-Sync-With-Upstream-action
         upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
