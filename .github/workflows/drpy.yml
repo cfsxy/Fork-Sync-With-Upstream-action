@@ -35,7 +35,7 @@ jobs:
         target_repo_token: ${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}
         upstream_sync_branch: qq_32394351/dr_py
         upstream_sync_repo: aormsby/Fork-Sync-With-Upstream-action
-        upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
+        upstream_repo_access_token: ${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}
 
         # Set test_mode true to run tests instead of the true action!!
         test_mode: true
